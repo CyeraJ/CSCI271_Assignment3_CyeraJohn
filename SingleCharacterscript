@@ -1,0 +1,32 @@
+Script started on 2026-02-25 20:54:11-05:00 [TERM="xterm-256color" TTY="/dev/pts/5" COLUMNS="122" LINES="10"]
+[?2004h]0;johnc2@thur114-hp1: ~/CSCI271/Assignment3[01;32mjohnc2@thur114-hp1[00m:[01;34m~/CSCI271/Assignment3[00m$ exitkillexit[Kjava SingleCharacter [K.java
+[?2004l
+Enter a string S: clean
+Enter a single character: c
+The character 'c' happens 1 time(s) in "clean".
+[?2004h]0;johnc2@thur114-hp1: ~/CSCI271/Assignment3[01;32mjohnc2@thur114-hp1[00m:[01;34m~/CSCI271/Assignment3[00m$ java SingleCharacter.java
+[?2004l
+Enter a string S: Green
+Enter a single character: g
+The character 'g' happens 0 time(s) in "Green".
+[?2004h]0;johnc2@thur114-hp1: ~/CSCI271/Assignment3[01;32mjohnc2@thur114-hp1[00m:[01;34m~/CSCI271/Assignment3[00m$ java SingleCharacter.javaexit[Kjava SingleCharacter.java
+[?2004l
+Enter a string S: mpn  onsterr
+Enter a single character: rrr
+Please enter exactly ONE character: r
+The character 'r' happens 2 time(s) in "monsterr".
+[?2004h]0;johnc2@thur114-hp1: ~/CSCI271/Assignment3[01;32mjohnc2@thur114-hp1[00m:[01;34m~/CSCI271/Assignment3[00m$ java SingleCharacter.java
+[?2004l
+Enter a string S: 	^[[3~ 
+Enter a single character C: C
+The character 'C' happens 0 time(s) in "	[3".
+[?2004h]0;johnc2@thur114-hp1: ~/CSCI271/Assignment3[01;32mjohnc2@thur114-hp1[00m:[01;34m~/CSCI271/Assignment3[00m$ java SingleCharacter.java
+[?2004l
+Enter a string S: CAP
+Enter a single character: a
+The character 'a' happens 0 time(s) in "CAP".
+[?2004h]0;johnc2@thur114-hp1: ~/CSCI271/Assignment3[01;32mjohnc2@thur114-hp1[00m:[01;34m~/CSCI271/Assignment3[00m$ exit
+[?2004l
+exit
+
+Script done on 2026-02-25 20:55:30-05:00 [COMMAND_EXIT_CODE="0"]
