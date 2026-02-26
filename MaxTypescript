@@ -1,0 +1,29 @@
+Script started on 2026-02-25 21:44:51-05:00 [TERM="xterm-256color" TTY="/dev/pts/5" COLUMNS="122" LINES="10"]
+[?2004h]0;johnc2@thur114-hp1: ~/CSCI271/Assignment3[01;32mjohnc2@thur114-hp1[00m:[01;34m~/CSCI271/Assignment3[00m$ exit[Kjava Max [K.java
+[?2004lIntegers in array: 3
+Enter 3 integers:
+1 2 3
+Maximum value is: 3
+[?2004h]0;johnc2@thur114-hp1: ~/CSCI271/Assignment3[01;32mjohnc2@thur114-hp1[00m:[01;34m~/CSCI271/Assignment3[00m$ java Max.java
+[?2004lIntegers in array: 5
+Enter 5 integers:
+
+
+
+
+
+4
+3
+2
+55
+6
+Maximum value is: 55
+[?2004h]0;johnc2@thur114-hp1: ~/CSCI271/Assignment3[01;32mjohnc2@thur114-hp1[00m:[01;34m~/CSCI271/Assignment3[00m$ java Max.java
+[?2004lIntegers in array: 1
+Enter 1 integers:
+3
+Maximum value is: 3
+[?2004h]0;johnc2@thur114-hp1: ~/CSCI271/Assignment3[01;32mjohnc2@thur114-hp1[00m:[01;34m~/CSCI271/Assignment3[00m$ exit
+[?2004lexit
+
+Script done on 2026-02-25 21:45:49-05:00 [COMMAND_EXIT_CODE="0"]

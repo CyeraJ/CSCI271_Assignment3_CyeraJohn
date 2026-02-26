@@ -4,9 +4,6 @@ public class IntegerRecursive{
     // Recursive function
     public static int countDigit(long n, int d) {
 
-        // Make n positive (in case user enters negative number)
-        n = Math.abs(n);
-
         // Base Case:
         // If no digits left, stop recursion
         if (n == 0) {
