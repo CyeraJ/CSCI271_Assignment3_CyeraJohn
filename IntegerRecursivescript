@@ -1,0 +1,27 @@
+Script started on 2026-02-25 21:36:10-05:00 [TERM="xterm-256color" TTY="/dev/pts/5" COLUMNS="122" LINES="10"]
+[?2004h]0;johnc2@thur114-hp1: ~/CSCI271/Assignment3[01;32mjohnc2@thur114-hp1[00m:[01;34m~/CSCI271/Assignment3[00m$ java IntegerRecursive [K.java
+[?2004lEnter a long integer N: 138714717
+Enter a digit D (0-9): 1
+Digit 1 appears 3 time(s) in 138714717
+[?2004h]0;johnc2@thur114-hp1: ~/CSCI271/Assignment3[01;32mjohnc2@thur114-hp1[00m:[01;34m~/CSCI271/Assignment3[00m$ java IntegerRecursive.java
+[?2004lEnter a long integer N: 4
+Enter a digit D (0-9): 5
+Digit 5 appears 0 time(s) in 4
+[?2004h]0;johnc2@thur114-hp1: ~/CSCI271/Assignment3[01;32mjohnc2@thur114-hp1[00m:[01;34m~/CSCI271/Assignment3[00m$ java IntegerRecursive.java
+[?2004lEnter a long integer N: 
+
+2
+Enter a digit D (0-9): 2
+Digit 2 appears 1 time(s) in 2
+[?2004h]0;johnc2@thur114-hp1: ~/CSCI271/Assignment3[01;32mjohnc2@thur114-hp1[00m:[01;34m~/CSCI271/Assignment3[00m$ java IntegerRecursive.java
+[?2004lEnter a long integer N: l
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2382)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2337)
+	at IntegerRecursive.main(IntegerRecursive.java:34)
+[?2004h]0;johnc2@thur114-hp1: ~/CSCI271/Assignment3[01;32mjohnc2@thur114-hp1[00m:[01;34m~/CSCI271/Assignment3[00m$ exit
+[?2004lexit
+
+Script done on 2026-02-25 21:36:59-05:00 [COMMAND_EXIT_CODE="1"]

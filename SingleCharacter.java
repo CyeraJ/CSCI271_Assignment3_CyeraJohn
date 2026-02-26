@@ -28,45 +28,44 @@ arguments and returns the number of times C appears in S recursively!
 import java.util.Scanner;
 
 public class SingleCharacter {
-// Method takes S and C, returns count recursively
-    public static int countSC(String s, char c) {
-        return countChar(s, c, 0);
-    }
-    public static int countChar(String s, char c, int index) {
-        // Base case: processed all characters
-        if (index >= s.length()) {
+
+    // Recursive function to count how many times c appears in s
+    public static int countChar(String s, char c) {
+
+        // Base Case:
+        // If the string is empty, return 0
+        if (s.length() == 0) {
             return 0;
         }
 
-        // Count 1 if current char matches, otherwise 0
-        int match = (s.charAt(index) == c) ? 1 : 0;
+        // Check the first character
+        char firstChar = s.charAt(0);
 
-        // Recurse to the next character
-        return match + countChar(s, c, index + 1);
+      //Ensure first character matches C
+        if (firstChar == c) {
+            // check the rest of the string and add this one
+            return 1 + countChar(s.substring(1), c);
+        } else {
+            // Just check the rest of the string
+            return countChar(s.substring(1), c);
+        }
     }
 
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
+
+        Scanner input = new Scanner(System.in);
 
         System.out.print("Enter a string S: ");
-        String s = in.nextLine();
+        String S = input.nextLine();
 
         System.out.print("Enter a single character: ");
-        String cLine = in.nextLine();
+        char C = input.nextLine().charAt(0);
 
-        // makes sure we get one
-        while (cLine.length() != 1) {
-            System.out.print("Please enter exactly ONE character: ");
-            cLine = in.nextLine();
-        }
+        int result = countChar(S, C);
+        System.out.println("The character '" + C + "'happens " 
+                           + result + " time(s) in \"" + C + "\".");
 
-        char c = cLine.charAt(0);
-
-        int result = countSC(s, c);
-
-        System.out.println("The character '" + c + "' happens " + result + " time(s) in \"" + s + "\".");
-
-        in.close();
+        input.close();
     }
 
 
