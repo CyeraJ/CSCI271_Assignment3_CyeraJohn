@@ -29,6 +29,12 @@ of characters in S recursively!
 * Cyera John
 * 
 ********************************************************************/
+
+/* Final Time Complexity:
+ *   O(n^2)
+ *
+ * Space Complexity:
+ *   O(n) due to recursive call stack. */
 import java.util.Scanner;
 
 public class RecursionNoloop {
