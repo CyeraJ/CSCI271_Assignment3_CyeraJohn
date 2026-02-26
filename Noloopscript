@@ -1,0 +1,30 @@
+Script started on 2026-02-25 20:12:22-05:00 [TERM="xterm-256color" TTY="/dev/pts/5" COLUMNS="163" LINES="10"]
+[?2004h]0;johnc2@thur114-hp1: ~/CSCI271/Assignment3[01;32mjohnc2@thur114-hp1[00m:[01;34m~/CSCI271/Assignment3[00m$ lscat /proc/cpuinfo | grep Serial >> Cyera-example[Klear[K[1Pexitnano MandelbrotSet.cc[9P./mandelbrotnano MandelbrotSet.ccexit[Kclearat /proc/cpuinfo | grep Serial >> Cyera-example[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[K[Kjava RecursionNoloop [K
+[?2004lEnter a string: 
+Length of the string: 0
+Enter a space to confirm that 0 length would be returned
+
+[?2004h]0;johnc2@thur114-hp1: ~/CSCI271/Assignment3[01;32mjohnc2@thur114-hp1[00m:[01;34m~/CSCI271/Assignment3[00m$ java RecursionNoloop
+[?2004lEnter a string: b
+Length of the string: 1
+Enter a single character to make sure it takes that
+[?2004h]0;johnc2@thur114-hp1: ~/CSCI271/Assignment3[01;32mjohnc2@thur114-hp1[00m:[01;34m~/CSCI271/Assignment3[00m$ salut![K[Kd1[K![K[K[K[K[K[Kjava RecursionNoloop
+[?2004lEnter a string: salud!
+Length of the string: 6
+Enter a string including a character to make sure it captures that
+[?2004h]0;johnc2@thur114-hp1: ~/CSCI271/Assignment3[01;32mjohnc2@thur114-hp1[00m:[01;34m~/CSCI271/Assignment3[00m$ java RecursionNoloop
+[?2004lEnter a string: for sure
+Length of the string: 8
+Enter a string with spaces to make sure it grabs that.
+[?2004h]0;johnc2@thur114-hp1: ~/CSCI271/Assignment3[01;32mjohnc2@thur114-hp1[00m:[01;34m~/CSCI271/Assignment3[00m$ java RecursionNoloop
+[?2004lEnter a string: oi
+Length of the string: 2
+regular string it should've captured
+[1P[1P[1P final_doc.txt[1P[1P[1P[1P[1P[1P[1P[Cy final_doc.txtp final_doc.txte final_doc.txts final_doc.txtc final_doc.txtr final_doc.txti final_doc.txtp final_doc.txtt final_doc.txt[C[Crfinal_doc.txtefinal_doc.txt[1Pfinal_doc.txt[1Pfinal_doc.txtNfinal_doc.txtofinal_doc.txtlfinal_doc.txtofinal_doc.txtofinal_doc.txtpfinal_doc.txtsfinal_doc.txtcfinal_doc.txtrfinal_doc.txtifinal_doc.txtpfinal_doc.txttfinal_doc.txt[1Pinal_doc.txt[1Pnal_doc.txt[1Pal_doc.txt[1Pl_doc.txt[1P_doc.txt[1Pdoc.txt[1Poc.txt[1Pc.txt[1P.txt[1Ptxt[1Pxt[1Pt[K
+I271/Assignment3[01;32mjohnc2@thur114-hp1[00m:[01;34m~/CSCI271/Assignment3[00m$ ren typescript Noloopscript[C[1@a[1@m[1@e
+gnment3[01;32mjohnc2@thur114-hp1[00m:[01;34m~/CSCI271/Assignment3[00m$ rename typescript Noloopscript[1P[1P[1P[1P[1P[1P[1@m[1@v[C[C[C[C[C[C[C[C[C[C[C. Noloopscriptt Noloopscripts Noloopscript[C[C[C[C[C[C[C[C[C[C[C[C[C.ts
+
+[?2004h]0;johnc2@thur114-hp1: ~/CSCI271/Assignment3[01;32mjohnc2@thur114-hp1[00m:[01;34m~/CSCI271/Assignment3[00m$ exit
+[?2004lexit
+
+Script done on 2026-02-25 20:18:27-05:00 [COMMAND_EXIT_CODE="130"]
